@@ -1,0 +1,31 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    margin: 20px;
+}
+
+.container img{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container strong{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+}
+
+.container span{
+    
+}
+
+.container button{
+    margin-top: 10px;
+    width: 90%;
+    height: 30px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
