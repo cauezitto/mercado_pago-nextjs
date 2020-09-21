@@ -6,7 +6,7 @@ export default function Carrinho() {
     const [payment, setPayment] = useState(Object)
 
     const loadPayment = async () =>{
-        const response = await axios.post('/api/hello', {
+        const response = await axios.post('/api/payment', {
             items: JSON.parse(localStorage.getItem('cart'))
         })
 
