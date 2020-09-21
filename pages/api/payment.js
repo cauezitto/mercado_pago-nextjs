@@ -1,7 +1,8 @@
 import mercadopago from 'mercadopago'
+import 'dotenv'
 
 mercadopago.configure({
-  access_token: 'TEST-1887197855834229-032416-4a0a0bfacb4fb0dd229fdee6493d49d5-269883664'
+  access_token: process.env.MP_TOKEN
 });
 
 export default async(req, res) => {
